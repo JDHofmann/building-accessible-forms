@@ -1,0 +1,57 @@
+body {
+    background: #202020;
+    color: #ffffff;
+    padding: 0;
+}
+
+form {
+    display: block;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin: 10vh auto;
+}
+
+form p {
+    text-align: left;
+    margin-left: 50px;
+}
+form label, input{
+    margin: 1vh auto;
+    padding: 0;
+    outline: 0;
+    font-size: 16px;
+}
+
+#login-form input, #login-form label {
+    display: block;
+    width: 200px;
+}
+
+fieldset {
+    margin: 50px;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+#login-form input {
+    margin-bottom: 3vh;
+}
+
+input {
+    text-align: center;
+    font-size: 16px;
+}
+form button{
+    display: block;
+    text-align: center;
+    width: 206px;
+    margin: 5vh auto;
+    height: 4vh;
+    border: 2px solid #ffffff;
+    background: #202020;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+}

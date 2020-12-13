@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Accessibility and forms</title>
+</head>
+<body>
+    <form id="login-form">
+        <h2>Login</h2>
+        <label for="username" >Username</label>
+        <input id="username" type="text" placeholder="spacemanspiff8" title="enter your username here">
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="******">
+        <button type="submit">Login</button>
+    </form>
+    <form>
+        <h2>Tell us about you</h2>
+        <fieldset>
+            <legend>Preferred Drink</legend>
+            <p>
+                <input type="radio" name="drink" id="drink_1" value="coffee">
+                <label for="drink_1">Coffee</label>
+            </p>
+            <p>
+                <input type="radio" name="drink" id="drink_2" value="tea">
+                <label for="drink_2">Tea</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferred Animal</legend>
+            <p>
+                <input type="radio" name="animal" id="animal_1" value="cats">
+                <label for="animal_1">Cats</label>
+            </p>
+            <p>
+                <input type="radio" name="animal" id="animal_2" value="dogs">
+                <label for="animal_2">Dogs</label>
+            </p>
+            <p>
+                <input type="radio" name="animal" id="animal_3" value="both">
+                <label for="animal_3">I like both cats and dogs</label>
+            </p>
+        </fieldset>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
